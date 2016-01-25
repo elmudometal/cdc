@@ -32,13 +32,13 @@ Window {
         Tab{
 
             title: qsTr("Paso #1 ")
-                NetworkTab{
+                Pestana1{
                     id: networkTab
                 }
         }
         Tab{
             title: qsTr("Paso #2 GPG")
-            ProcessTab{
+            Pestana2{
                 id: processTab
             }
         }

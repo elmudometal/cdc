@@ -1,8 +1,8 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>NetworkTab.qml</file>
-        <file>ProcessTab.qml</file>
+        <file>Pestana1.qml</file>
+        <file>Pestana2.qml</file>
         <file>Pestana3.qml</file>
         <file>Pestana4.qml</file>
         <file>Pestana5.qml</file>
