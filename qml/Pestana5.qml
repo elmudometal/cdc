@@ -11,7 +11,7 @@ ColumnLayout{
     property string file
 
     Button{
-        text: qsTr("Firmar Codigo de Conduta")
+        text: qsTr("Firmar Código de Conducta")
         Layout.preferredWidth: parent.width / 1.07
         Layout.alignment: Qt.AlignHCenter
         onClicked: {

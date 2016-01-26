@@ -13,7 +13,7 @@ ColumnLayout{
     Component.onCompleted: progressBar.visible = false
 
     Text {
-        text: qsTr("\nCodigo de conducta Version 2.0")
+        text: qsTr("\nCódigo de Conducta Version 2.0")
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
     }
@@ -61,7 +61,7 @@ ColumnLayout{
     }
 
     Text {
-        text: qsTr("Ubicacion Del Archivo")
+        text: qsTr("Ubicación Del Archivo")
         anchors.horizontalCenter: parent.horizontalCenter
     }
 

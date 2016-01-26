@@ -14,7 +14,7 @@ ColumnLayout{
         Layout.preferredWidth: parent.width / 1.07
         Layout.alignment: Qt.AlignHCenter
         Text {
-            text: qsTr("clave gpg Generadas:")
+            text: qsTr("Clave GPG Generadas:")
             Layout.topMargin: 20
             Layout.preferredWidth: rootProcess2.width / 2.2
             Layout.alignment: Qt.AlignHCenter
@@ -43,7 +43,7 @@ ColumnLayout{
         text: systemCallOutPut2
     }
     Text {
-        text: qsTr("Numreo de tu llave GPG:")
+        text: qsTr("Número de tu llave GPG:")
         //Layout.topMargin: 20
         Layout.preferredWidth: parent.width / 1.07
         Layout.alignment: Qt.AlignHCenter
@@ -59,7 +59,7 @@ ColumnLayout{
 
         }
         Button{
-            text: qsTr("Enviar Llave al servidor?")
+            text: qsTr("Enviar Llave al Servidor?")
             Layout.preferredWidth: rootProcess2.width / 2.2
             //tooltip: "use this button to run a system command"
             onClicked: {

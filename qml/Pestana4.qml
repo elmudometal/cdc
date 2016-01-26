@@ -10,6 +10,7 @@ ColumnLayout{
     property string editString
 
     Button{
+        Layout.topMargin: 20
         text: qsTr("Crear Archivo Cifrado")
         Layout.preferredWidth: parent.width / 1.07
         Layout.alignment: Qt.AlignHCenter
@@ -22,7 +23,7 @@ ColumnLayout{
 
 
     Text {
-        text: qsTr("Ubicacion Del Archivo")
+        text: qsTr("Ubicación Del Archivo")
         anchors.horizontalCenter: parent.horizontalCenter
     }
 

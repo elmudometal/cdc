@@ -26,7 +26,7 @@ ColumnLayout{
 
     }
     Text {
-        text: qsTr("Correo Electronico:")
+        text: qsTr("Correo Electrónico:")
         Layout.preferredWidth: parent.width / 1.07
         Layout.alignment: Qt.AlignHCenter
     }

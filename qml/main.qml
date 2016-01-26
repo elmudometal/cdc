@@ -10,7 +10,7 @@ Window {
     width: 800//Screen.width/2
     height: 700//Screen.height/2
     color: "#c7c7c7"
-    title: ".:Firma del Codigo de Conducta:."
+    title: ".:Firma del Código de Conducta:."
 
     //NetworkTab
     property string networkTabString
@@ -43,13 +43,13 @@ Window {
             }
         }
         Tab{
-            title: qsTr("Paso #3 Verificar y enviar firma")
+            title: qsTr("Paso #3 Enviar Firma")
             Pestana3{
                 id: process2Tab
             }
         }
         Tab{
-            title: qsTr("Paso #4 Validar firma")
+            title: qsTr("Paso #4 Validar Firma")
             Pestana4{
                 id: process3Tab
             }
