@@ -26,11 +26,12 @@ echo "Archivos de configuaracion Creados ..."
  echo "Creando llave gpg espere un momento mientras se realiza es operacion"
  echo "Esto podria llevar tiempo"
  echo "Mientras se realiza esta operacion abra un archivo o genere procesos para que la clave se obtenga de manera rapida"
- #1gpg --yes --batch --passphrase=${3} --gen-key $HOME/cdc.conf
+ gpg --yes --batch --passphrase=${3} --gen-key $HOME/cdc.conf
  echo "Clave generada____________"
  echo "importando clave GPG..."
- #2gpg --import $HOME/${1}.pub
- #3gpg --import $HOME/${1}.sec
+ gpg --import $HOME/${1}.pub
+ gpg --import $HOME/${1}.sec
  echo "importancion de clave GPG Finalizada."
+ rm $HOME/cdc.conf
  gpg --list-key
 
